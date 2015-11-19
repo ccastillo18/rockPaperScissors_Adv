@@ -60,7 +60,7 @@ function evaluate(evt) {
 // This function runs on page load
 $(document).ready(function(){
     $(".token").click(function(evt){
-        hide(1000);
+        $("#message").hide();
         evaluate(evt);
     });
     
